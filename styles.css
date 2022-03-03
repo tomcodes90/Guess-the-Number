@@ -1,0 +1,47 @@
+body {
+  padding: 0;
+  background-color: rgb(39, 39, 207);
+  font-family: "Inter", sans-serif;
+}
+#game-container {
+  background-color: white;
+  display: inline-block;
+  width: 750px;
+  height: 400px;
+  margin: auto 25%;
+  text-align: center;
+}
+#guessTheNumber {
+  font-size: 2rem;
+  font-weight: bold;
+}
+#triesLeft {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#inputField {
+  margin: 25px auto;
+  width: 100px;
+}
+#btn {
+  margin: 25px auto auto 5px;
+}
+#gameMessage {
+  background-color: red;
+  color: white;
+  font-size: 1.5rem;
+  padding: 30px 50px;
+  display: block;
+  max-width: max-content;
+  margin: 0px 1px;
+}
+
+.hideMessage {
+  visibility: collapse;
+  display: none;
+}
+.gameBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

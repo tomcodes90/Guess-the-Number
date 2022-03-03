@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="game-container">
+      <p id="guessTheNumber">Guess the number between 1 and 10</p>
+      <p id="triesLeft">
+        Number of tries left: <span id="triesCounter"></span>
+      </p>
+      <input type="text" id="inputField" < /><button id="btn">Guess</button>
+      <div class="gameBox">
+        <p id="gameMessage" class="hideMessage"></p>
+        <button id="restartBtn" class="hideMessage">Restart</button>
+      </div>
+    </div>
+    <script src="./javascript.js"></script>
+  </body>
+</html>
