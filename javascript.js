@@ -35,9 +35,8 @@ restart.addEventListener("click", function () {
   restart.classList.add("hideMessage");
   btn.classList.remove("hideMessage");
   gameMessage.style.backgroundColor = "red";
-  return (
-    (randomNumber = Math.floor(Math.random() * 10) + 1),
-    (triesCounter.textContent = 3),
-    (triesLeft = 3)
-  );
+
+  randomNumber = Math.floor(Math.random() * 10) + 1;
+  triesCounter.textContent = 3;
+  triesLeft = 3;
 });
