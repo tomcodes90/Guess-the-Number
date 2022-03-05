@@ -7,7 +7,6 @@ let triesCounter = document.getElementById("triesCounter");
 const gameMessage = document.getElementById("gameMessage");
 const restart = document.getElementById("restartBtn");
 triesCounter.textContent = triesLeft;
-console.log(randomNumber);
 
 btn.addEventListener("click", function () {
   const guessNumber = parseInt(input.value);
